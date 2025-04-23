@@ -45,3 +45,21 @@ body{
 
 }
 
+@media (max-width:600px){
+	.oonn{
+		width: 500px;
+		height: 550px;
+	}
+}
+@media (min-width:600px){
+	.oonn{
+		width: 550px;
+		height: 550px;
+	}
+}
+@media (min-width:1200px){
+	.oonn{
+		width: 1250px;
+		height: 550px;
+	}
+}
