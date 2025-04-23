@@ -1,0 +1,46 @@
+body {
+	background: linear-gradient(-45deg, white,violet,rgb(145, 192, 207));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+    
+}
+.pic{
+            
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:25px;
+    padding-top: 10px;
+    height: 250px;
+    width: 250px;
+}
+.name{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.container{
+    text-align: center;
+    font-size: 1rem;
+}
+.navbar-brand{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
